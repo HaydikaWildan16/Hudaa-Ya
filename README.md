@@ -1,0 +1,2 @@
+# Hudaa-Ya
+Nama project ini, Hudaa-Ya, diambil dari penggalan Surah Al-Baqarah ayat 38. فَمَنْ تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُوْنَ. Artinya "... siapa saja yang mengikuti petunjuk-Ku tidak ada rasa takut yang menimpa mereka dan mereka pun tidak bersedih hati.”.
