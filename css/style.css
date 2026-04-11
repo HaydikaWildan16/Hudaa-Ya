@@ -1,0 +1,282 @@
+.preview {
+    text-align: center;
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.preview h2 {
+    font-size: 32px;
+    color: #2e7d32;
+}
+
+.preview p {
+    margin: 15px 0;
+    color: #666;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background: #f5f7fa;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background: linear-gradient(to right, #e8f5e9, #ffffff);
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    color: #2e7d32;
+}
+
+.hero-text h2 {
+    margin: 10px 0;
+}
+
+.hero-text p {
+    margin: 10px 0;
+}
+
+.hero-btn {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.btn-outline {
+    border: 2px solid #2e7d32;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+/* HUDAAYA IMG */
+.hero-img img {
+    width: 450px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background: white;
+    text-align: center;
+}
+
+.stats h3 {
+    color: #2e7d32;
+}
+
+/* MATERI */
+.materi {
+    padding: 60px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Biar footer selalu di bawah */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Isi utama biar dorong footer */
+section {
+    flex: 1;
+}
+
+/* Footer */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* CONTENT */
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* BIODATA */
+.biodata-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.biodata-text h1 {
+    font-size: 40px;
+    color: #2e7d32;
+}
+
+.biodata-img img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.materi-page {
+    padding: 60px;
+    text-align: center;
+}
+
+.materi-page h1 {
+    margin-bottom: 30px;
+    color: #2e7d32;
+}
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card .btn {
+    margin-top: auto;
+}
+/* BIODATA SECTION */
+.biodata-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    gap: 40px;
+}
+
+/* TEXT */
+.biodata-text {
+    flex: 1;
+}
+
+.biodata-text h1 {
+    font-size: 38px;
+    color: #2e7d32;
+}
+
+.desc {
+    margin: 10px 0 20px;
+    color: #555;
+}
+
+/* INFO */
+.info p {
+    margin: 6px 0;
+}
+
+/* FOTO */
+.biodata-img img {
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact {
+    margin-top: 50px;
+}
+
+.contact h3 {
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+/* ICON */
+.contact-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-icons img {
+    width: 38px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    .biodata-section {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .biodata-img img {
+        width: 200px;
+    }
+
+    .contact-icons {
+        justify-content: center;
+    }
+}
